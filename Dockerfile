@@ -10,4 +10,4 @@ WORKDIR /opt
 RUN wget http://www.erlang.org/download/otp_src_18.1.tar.gz
 
 RUN tar zxvf otp_src_18.1.tar.gz && cd otp_src_18.1 \
-&& ./configure && make && sudo make install
+&& ./configure && make && make install
